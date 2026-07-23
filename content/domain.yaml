@@ -1,12 +1,12 @@
 apiVersion: io.datameshaccelerator/v1
 kind: DataProductDomain
 metadata:
-  name: {{ dataproductdomain }}
+  name: {{ dataproductdomainname }}
   namespace: data-product-experience-plane
 spec:
-  domainName: {{ dataproductdomain }}
-  title: {{ dataproductdomaintitle }}
-  description: {{ dataproductdomaindescription }}
+  domainName: {{ dataproductdomainname }}
+  title: {{ dataproductdomainnametitle }}
+  description: {{ dataproductdomainnamedescription }}
   responsibleTeam:
     name: {{ responsibleteamname }}
     contact: {{ responsibleteamemail }}
