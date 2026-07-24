@@ -5,8 +5,8 @@ metadata:
   namespace: data-product-experience-plane
 spec:
   domainName: {{ dataproductdomainname }}
-  title: {{ dataproductdomainnametitle }}
-  description: {{ dataproductdomainnamedescription }}
+  title: {{ dataproductdomaintitle }}
+  description: {{ dataproductdomaindescription }}
   responsibleTeam:
     name: {{ responsibleteamname }}
     contact: {{ responsibleteamemail }}
