@@ -6,8 +6,8 @@ metadata:
 spec:
   templateName: "domain-template"
   domainName: {{ dataproductdomainname }}
-  title: {{ dataproductdomainnametitle }}
-  description: {{ dataproductdomainnamedescription }}
+  title: {{ dataproductdomaintitle }}
+  description: {{ dataproductdomaindescription }}
   responsibleTeam:
     name: {{ responsibleteamname }}
     contact: {{ responsibleteamemail }}
