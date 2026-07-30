@@ -4,10 +4,11 @@ metadata:
   name: {{ dataproductdomainname }}
   namespace: data-product-experience-plane
 spec:
-  templateName: domain-template
   domainName: {{ dataproductdomainname }}
   title: {{ dataproductdomaintitle }}
   description: {{ dataproductdomaindescription }}
   responsibleTeam:
     name: {{ responsibleteamname }}
     contact: {{ responsibleteamemail }}
+  gitRepository:
+    templateName: domain-template
