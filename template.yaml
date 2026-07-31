@@ -1,0 +1,10 @@
+apiVersion: io.datameshaccelerator/v1
+kind: DataProductDomainGitRepositoryTemplate
+metadata:
+  namespace: data-product-experience-plane
+  name: domain-template
+spec:
+  name: domain-template
+  title: "Data Product Domain"
+  description: "A template for a data product domain."
+  repositoryUrl: https://github.com/datamesh-templates-demo/domain-template
