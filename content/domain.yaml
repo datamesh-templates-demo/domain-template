@@ -10,3 +10,5 @@ spec:
   responsibleTeam:
     name: {{ responsibleteamname }}
     contact: {{ responsibleteamemail }}
+  gitRepository:
+    templateName: domain-template
