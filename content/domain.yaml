@@ -4,4 +4,4 @@ metadata:
   name: {{ dataproductdomainname }}
   namespace: data-product-experience-plane
 spec:
-  domainName: {{ dataproductdomainname }}
+  domainN
